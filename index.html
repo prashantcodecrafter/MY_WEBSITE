@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Your Gallery Website</h1>
+        <p>"Every movement with you is a treasure it worth keeping."</p>
+        <button class="theme-btn" onclick="changeTheme()">Change Theme</button>
+        <button class="gallery-btn" onclick="goToGallery()">See Our Gallery</button>
+    </div>
+    
+    <script>
+        function changeTheme() {
+            document.body.classList.toggle("red-theme");
+        }
+        function goToGallery() {
+            window.location.href = "gallery.html";
+        }
+    </script>
+</body>
+</html>
